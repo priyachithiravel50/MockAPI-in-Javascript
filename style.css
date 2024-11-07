@@ -1,34 +1,75 @@
-
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(22, 113, 113);
 }
-.con{
-    background-color: rgb(238, 175, 175);
+.container{
+    background-color: rgb(22, 113, 113);
+}
+    #form{
+    background-color:rgb(22, 113, 113);
+    width: 500px;
+    margin: 15vh auto 0 auto;
+    border-radius: 10px;
+    padding: 50px;
+    
+}
+.log{
+    text-align: center;
+    color: white;
+}
+.table-title{
+    text-align: center;
     color: black;
 }
-h2{
-    margin-top: 20%;
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
-#update{
-    display: none;
-}
-
-.cols{
-    margin-left: 30%;
-    margin-top: 3%;
-}
-.data{
-    margin-left: 30%;
-}
-
-label{
-    padding: 10px;
+.form-group label{
     font-weight: bold;
     font-size: 20px;
-    margin-right: 100px;
-}
-input{
+    color: white;
+} 
+.form-group input{
+    margin-top: 5px;
     padding: 10px;
-
+    width: 100%;
+    border-radius: 5px;
+    border-color: #787575;
 }
+.submit{
+    background-color: rgb(106, 112, 112);
+    color: white;
+    border-color: rgb(106, 112, 112);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 6px;
+    font-size: 15px;
+    font-size: 20px;
+    width: 30%;
+    cursor: pointer;
+    margin-left: 110px;       
+   }
+
+   
+#top-table{
+    display: flex;
+    justify-content: center;
+    color: rgb(25, 20, 12);
+  
+  }
+  table,td,tr,th{
+    border: 2px solid rgb(31, 30, 30);
+    border-collapse: collapse;
+    padding: 1rem ;
+      background-color:whitesmoke;
+  }
+  th{
+    padding: 1rem 3rem;
+
+  }
+  td{
+    text-align: center;
+  } 
